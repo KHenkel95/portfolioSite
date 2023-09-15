@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!--navbar-->
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">Ken Henkel</a>
@@ -29,11 +29,15 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                   </li>
+                  <li>
+                    <!-- Place this tag where you want the button to render. -->
+                    <a class="github-button" href="https://github.com/KHenkel95" data-size="large" aria-label="Follow @KHenkel95 on GitHub">Follow @KHenkel95</a>
+                  </li>
                 </ul>
               </div>
             </div>
         </nav>
-        <!--main banner-->
+        <!-- Main Banner -->
         <section class="container-fluid section main_banner" id="home">
             <div class="row">
                 <div class="col">
@@ -62,6 +66,7 @@
                         <p class="about_me_desc"> I’m looking for opportunities to apply, and grow, my knowledge and experience in designing and developing software. Please connect with me on Linkedin, Github, or through any other means and feel free to contact me</p>
                     </div>
                 </div>
+                <!-- Projects Section -->
                 <div class="col">
                     <div class="container mt-3 my_projects">
                         <h1 class="text-center">My Projects:</h1>
@@ -77,7 +82,6 @@
                                     </div>
                                 </div>
                             </div>
-              
                             <div class="col-lg-4 mt-4">
                                 <div class="card">
                                     <div class="card-body">
@@ -89,7 +93,6 @@
                                     </div>
                                 </div>
                             </div>
-              
                             <div class="col-lg-4 mt-4">
                                 <div class="card">
                                     <div class="card-body">
@@ -115,7 +118,6 @@
                                     </div>
                                 </div>
                             </div>
-              
                             <div class="col-lg-4 mt-4">
                                 <div class="card">
                                     <div class="card-body">
@@ -138,8 +140,30 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>  
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- contact section -->
+        <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+        <section class="container mt-3 section" id="contact">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="col-lg-6">
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+            </div>
         </section>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <!-- Github button script -->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
     </body>
 </html>
