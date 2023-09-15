@@ -77,3 +77,8 @@
 .servicesText:hover {
     border: 1px solid #008000;
 }
+
+.resize{
+    width: 150px;
+    height: auto;
+}
