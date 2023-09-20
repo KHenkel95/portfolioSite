@@ -48,6 +48,9 @@
     font-size: 36px;
     cursor: pointer;
 }
+.linkedin_button{
+    margin-left: 1rem;
+}
 /*.fa-facebook:hover,
 .fa-instagram:hover,
 .fa-twitter:hover,
